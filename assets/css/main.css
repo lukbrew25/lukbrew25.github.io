@@ -565,6 +565,14 @@
 						border-color: #ff7496;
 					}
 
+					ul.icons li a img {
+						display: block;
+						margin: auto;
+						position: relative;
+						top: 50%;
+						transform: translateY(-50%);
+					}
+
 			@media screen and (max-width: 480px) {
 
 				ul.icons li a:before {
@@ -776,7 +784,6 @@
 
 	#footer {
 		-moz-align-self: -moz-flex-end;
-		-webkit-align-self: -webkit-flex-end;
 		-ms-align-self: -ms-flex-end;
 		align-self: flex-end;
 		width: 100%;
